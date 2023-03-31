@@ -1,0 +1,29 @@
+composition:
+  _name: Articles
+  _id: fd58678b-3df2-4f96-9215-4be9439e202e
+  _slug: articles
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Articles
+    pageMetaDescription:
+      type: text
+      value: Articles
+  slots:
+    content:
+      - _id: 2d90bed7-4345-400b-b829-f4e85ea8d746
+        type: articlesList
+        parameters:
+          title:
+            type: text
+            value: Article
+          content:
+            type: contentfulQuery
+            value:
+              count: 9
+              source: default
+              contentType: article
+created: '2023-03-28T09:09:14.891459+00:00'
+modified: '2023-03-30T16:00:54.463582+00:00'
+pattern: false

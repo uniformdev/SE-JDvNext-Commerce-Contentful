@@ -1,0 +1,32 @@
+composition:
+  _name: Custom Article Page
+  _id: c0227c51-efb0-45b5-a48a-2494d5ef119e
+  _slug: how-to-find-the-perfect-cup-without-leaving-your-home
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Custom Article Page
+  slots:
+    content:
+      - _id: fbef211b-b954-41be-ac99-a04661ab03c6
+        type: hero
+        parameters:
+          image:
+            type: image
+            value: >-
+              https://res.cloudinary.com/uniformdev/image/upload/v1675862788/vNext%20Demos/Fake%20Commerce/hero-coffee-makers_ixoaim.webp
+          title:
+            type: text
+            value: This is a custom article
+      - _id: 7741d330-7c8f-4c09-87c5-42f11e457c7d
+        type: article
+        parameters:
+          content:
+            type: contentfulEntry
+            value:
+              source: default
+              entryId: p9cRDL4wnVWieFwMYX4NL
+created: '2023-03-28T09:09:13.951026+00:00'
+modified: '2023-03-28T12:09:49.631443+00:00'
+pattern: false

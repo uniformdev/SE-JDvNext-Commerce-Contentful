@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: algolia-refinementList
+name: Refinement List
+icon: >-
+  https://res.cloudinary.com/uniformdev/image/upload/v1677844318/vNext%20Demos/Baseline/canvas-preview/Algolia_Refinement_List_vw3evj.png
+parameters:
+  - id: refinementListParams
+    name: Refinement List Parameters
+    type: algolia-components
+    helpText: ''
+    typeConfig:
+      selectedComponent: Refinement List
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2023-03-28T09:09:10.178127+00:00'
+updated: '2023-03-28T11:18:43.509728+00:00'

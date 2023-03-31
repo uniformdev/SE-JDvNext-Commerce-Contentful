@@ -1,0 +1,12 @@
+{
+  "project": {
+    "pz": {
+      "enr": {
+        "subCategory": {
+          "cap": 100
+        }
+      }
+    },
+    "test": {}
+  }
+}
