@@ -25,6 +25,7 @@ export const getStaticProps: GetStaticProps<{ preview?: boolean }> = async conte
         preview: Boolean(preview),
         revalidate: Number.MAX_SAFE_INTEGER,
       },
+      revalidate: 1,
     }))
     .catch(getErrorPageProps);
 };

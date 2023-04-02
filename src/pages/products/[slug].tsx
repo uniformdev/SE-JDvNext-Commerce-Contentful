@@ -50,6 +50,7 @@ export const getStaticProps: GetStaticProps<{ preview?: boolean }> = async conte
         revalidate: Number.MAX_SAFE_INTEGER,
         key: productSlug,
       },
+      revalidate: 1,
     }))
     .catch(getErrorPageProps);
 };
