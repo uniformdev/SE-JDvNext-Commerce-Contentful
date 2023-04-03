@@ -6,13 +6,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "contactForm",
+        "id": "featuredCallout",
         "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.454Z",
-        "updatedAt": "2023-03-26T21:18:56.528Z",
+        "createdAt": "2023-04-02T11:14:32.853Z",
+        "updatedAt": "2023-04-02T11:14:36.391Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -21,8 +21,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:56.528Z",
-        "firstPublishedAt": "2023-03-26T21:18:56.528Z",
+        "publishedAt": "2023-04-02T11:14:36.391Z",
+        "firstPublishedAt": "2023-04-02T11:14:36.391Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -47,13 +47,13 @@
           }
         }
       },
-      "displayField": "submitButtonText",
-      "name": "Contact Form",
+      "displayField": "title",
+      "name": "Featured Callout",
       "description": "",
       "fields": [
         {
-          "id": "submitButtonText",
-          "name": "Submit Button Text",
+          "id": "title",
+          "name": "Title",
           "type": "Symbol",
           "localized": false,
           "required": true,
@@ -63,8 +63,8 @@
           "omitted": false
         },
         {
-          "id": "successfulSubmitText",
-          "name": "Successful Submit Text",
+          "id": "description",
+          "name": "Description",
           "type": "Text",
           "localized": false,
           "required": true,
@@ -74,30 +74,30 @@
           "omitted": false
         },
         {
-          "id": "errorSubmitText",
-          "name": "Error Submit Text",
-          "type": "Text",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "successfulSubmitImage",
-          "name": "Successful Submit Image",
+          "id": "buttonCopy",
+          "name": "Button Copy",
           "type": "Symbol",
           "localized": false,
-          "required": true,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
           "omitted": false
         },
         {
-          "id": "errorSubmitImage",
-          "name": "Error Submit Image",
+          "id": "buttonLink",
+          "name": "Button Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
           "type": "Symbol",
           "localized": false,
           "required": true,
@@ -114,13 +114,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "article",
+        "id": "callToAction",
         "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.474Z",
-        "updatedAt": "2023-03-26T21:18:55.600Z",
+        "createdAt": "2023-04-02T11:14:32.858Z",
+        "updatedAt": "2023-04-02T11:14:35.656Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -129,8 +129,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:55.600Z",
-        "firstPublishedAt": "2023-03-26T21:18:55.600Z",
+        "publishedAt": "2023-04-02T11:14:35.656Z",
+        "firstPublishedAt": "2023-04-02T11:14:35.656Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -147,6 +147,103 @@
         },
         "publishedCounter": 1,
         "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Call to Action",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "text",
+          "name": "Text",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonCopy",
+          "name": "Button Copy",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonLink",
+          "name": "Button Link",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "article",
+        "type": "ContentType",
+        "createdAt": "2023-04-02T11:14:32.867Z",
+        "updatedAt": "2023-04-03T10:55:04.072Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-04-03T10:55:04.072Z",
+        "firstPublishedAt": "2023-04-02T11:14:34.269Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -252,6 +349,17 @@
           ],
           "disabled": false,
           "omitted": false
+        },
+        {
+          "id": "unfrmOptEnrichmentTag",
+          "name": "Enrichment Tags",
+          "type": "Object",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
         }
       ]
     },
@@ -261,13 +369,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "hero",
         "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.501Z",
-        "updatedAt": "2023-03-26T21:18:57.348Z",
+        "createdAt": "2023-04-02T11:14:32.871Z",
+        "updatedAt": "2023-04-02T11:14:34.776Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -276,8 +384,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:57.348Z",
-        "firstPublishedAt": "2023-03-26T21:18:57.348Z",
+        "publishedAt": "2023-04-02T11:14:34.776Z",
+        "firstPublishedAt": "2023-04-02T11:14:34.776Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -369,185 +477,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "accordion",
-        "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.505Z",
-        "updatedAt": "2023-03-26T21:18:56.954Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:56.954Z",
-        "firstPublishedAt": "2023-03-26T21:18:56.954Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Accordion",
-      "description": "",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "description",
-          "name": "Description",
-          "type": "Text",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "callToAction",
-        "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.593Z",
-        "updatedAt": "2023-03-26T21:18:57.799Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:57.799Z",
-        "firstPublishedAt": "2023-03-26T21:18:57.799Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Call to Action",
-      "description": "",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "text",
-          "name": "Text",
-          "type": "Text",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "buttonCopy",
-          "name": "Button Copy",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "buttonLink",
-          "name": "Button Link",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "accordionItem",
         "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:54.635Z",
-        "updatedAt": "2023-03-26T21:18:56.116Z",
+        "createdAt": "2023-04-02T11:14:32.883Z",
+        "updatedAt": "2023-04-02T11:14:36.066Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -556,8 +492,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:56.116Z",
-        "firstPublishedAt": "2023-03-26T21:18:56.116Z",
+        "publishedAt": "2023-04-02T11:14:36.066Z",
+        "firstPublishedAt": "2023-04-02T11:14:36.066Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -616,13 +552,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "featuredCallout",
+        "id": "contactForm",
         "type": "ContentType",
-        "createdAt": "2023-03-26T21:18:55.305Z",
-        "updatedAt": "2023-03-26T21:18:58.290Z",
+        "createdAt": "2023-04-02T11:14:32.905Z",
+        "updatedAt": "2023-04-02T11:14:33.627Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -631,8 +567,116 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:18:58.290Z",
-        "firstPublishedAt": "2023-03-26T21:18:58.290Z",
+        "publishedAt": "2023-04-02T11:14:33.627Z",
+        "firstPublishedAt": "2023-04-02T11:14:33.627Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "displayField": "submitButtonText",
+      "name": "Contact Form",
+      "description": "",
+      "fields": [
+        {
+          "id": "submitButtonText",
+          "name": "Submit Button Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "successfulSubmitText",
+          "name": "Successful Submit Text",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "errorSubmitText",
+          "name": "Error Submit Text",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "successfulSubmitImage",
+          "name": "Successful Submit Image",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "errorSubmitImage",
+          "name": "Error Submit Image",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "accordion",
+        "type": "ContentType",
+        "createdAt": "2023-04-02T11:14:32.929Z",
+        "updatedAt": "2023-04-02T11:14:35.244Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:14:35.244Z",
+        "firstPublishedAt": "2023-04-02T11:14:35.244Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -658,7 +702,7 @@
         }
       },
       "displayField": "title",
-      "name": "Featured Callout",
+      "name": "Accordion",
       "description": "",
       "fields": [
         {
@@ -682,39 +726,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "buttonCopy",
-          "name": "Button Copy",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "buttonLink",
-          "name": "Button Link",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "image",
-          "name": "Image",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     }
@@ -728,13 +739,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "pdop8ohi5lsy",
+            "id": "9a6i4jpunqu2",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 2,
-        "createdAt": "2023-03-26T21:18:56.688Z",
+        "createdAt": "2023-04-02T11:14:36.582Z",
         "createdBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -742,7 +753,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2023-03-26T21:18:59.274Z",
+        "updatedAt": "2023-04-02T11:14:38.614Z",
         "updatedBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -752,7 +763,7 @@
         },
         "contentType": {
           "sys": {
-            "id": "contactForm",
+            "id": "featuredCallout",
             "type": "Link",
             "linkType": "ContentType"
           }
@@ -767,27 +778,27 @@
       },
       "controls": [
         {
-          "fieldId": "submitButtonText",
+          "fieldId": "title",
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "successfulSubmitText",
+          "fieldId": "description",
           "widgetId": "markdown",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "errorSubmitText",
-          "widgetId": "markdown",
+          "fieldId": "buttonCopy",
+          "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "successfulSubmitImage",
-          "widgetId": "urlEditor",
+          "fieldId": "buttonLink",
+          "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "errorSubmitImage",
+          "fieldId": "image",
           "widgetId": "urlEditor",
           "widgetNamespace": "builtin"
         }
@@ -799,13 +810,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "pdop8ohi5lsy",
+            "id": "9a6i4jpunqu2",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 2,
-        "createdAt": "2023-03-26T21:18:55.801Z",
+        "createdAt": "2023-04-02T11:14:35.816Z",
         "createdBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -813,7 +824,73 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2023-03-26T21:18:59.279Z",
+        "updatedAt": "2023-04-02T11:14:37.657Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "callToAction",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "text",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonCopy",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonLink",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "9a6i4jpunqu2",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-04-02T11:14:34.486Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-04-03T10:55:22.619Z",
         "updatedBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -864,6 +941,11 @@
           "fieldId": "content",
           "widgetId": "richTextEditor",
           "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "unfrmOptEnrichmentTag",
+          "widgetId": "1BeY7xDfJfvD5El9ymsOZF",
+          "widgetNamespace": "app"
         }
       ]
     },
@@ -873,13 +955,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "pdop8ohi5lsy",
+            "id": "9a6i4jpunqu2",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 2,
-        "createdAt": "2023-03-26T21:18:57.549Z",
+        "createdAt": "2023-04-02T11:14:34.978Z",
         "createdBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -887,7 +969,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2023-03-26T21:18:59.273Z",
+        "updatedAt": "2023-04-02T11:14:37.662Z",
         "updatedBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -944,13 +1026,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "pdop8ohi5lsy",
+            "id": "9a6i4jpunqu2",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 2,
-        "createdAt": "2023-03-26T21:18:57.087Z",
+        "createdAt": "2023-04-02T11:14:36.180Z",
         "createdBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -958,129 +1040,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2023-03-26T21:18:59.280Z",
-        "updatedBy": {
-          "sys": {
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "accordion",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "description",
-          "widgetId": "markdown",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "pdop8ohi5lsy",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 2,
-        "createdAt": "2023-03-26T21:18:57.988Z",
-        "createdBy": {
-          "sys": {
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2023-03-26T21:18:59.261Z",
-        "updatedBy": {
-          "sys": {
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "callToAction",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "text",
-          "widgetId": "markdown",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "buttonCopy",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "buttonLink",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "pdop8ohi5lsy",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 2,
-        "createdAt": "2023-03-26T21:18:56.261Z",
-        "createdBy": {
-          "sys": {
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2023-03-26T21:18:59.282Z",
+        "updatedAt": "2023-04-02T11:14:37.676Z",
         "updatedBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -1122,13 +1082,13 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "pdop8ohi5lsy",
+            "id": "9a6i4jpunqu2",
             "type": "Link",
             "linkType": "Space"
           }
         },
         "version": 2,
-        "createdAt": "2023-03-26T21:18:58.477Z",
+        "createdAt": "2023-04-02T11:14:33.824Z",
         "createdBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -1136,7 +1096,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2023-03-26T21:19:00.260Z",
+        "updatedAt": "2023-04-02T11:14:37.647Z",
         "updatedBy": {
           "sys": {
             "id": "7Gjs7urqMUu3ZfyCYuP8t0",
@@ -1146,7 +1106,78 @@
         },
         "contentType": {
           "sys": {
-            "id": "featuredCallout",
+            "id": "contactForm",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "submitButtonText",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "successfulSubmitText",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "errorSubmitText",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "successfulSubmitImage",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "errorSubmitImage",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "9a6i4jpunqu2",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2023-04-02T11:14:35.383Z",
+        "createdBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-04-02T11:14:37.791Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "accordion",
             "type": "Link",
             "linkType": "ContentType"
           }
@@ -1169,21 +1200,6 @@
           "fieldId": "description",
           "widgetId": "markdown",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "buttonCopy",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "buttonLink",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "image",
-          "widgetId": "urlEditor",
-          "widgetNamespace": "builtin"
         }
       ]
     }
@@ -1199,311 +1215,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "4m40Y7SWNhyqcioflXuLrW",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:47.680Z",
-        "updatedAt": "2023-03-26T21:19:52.016Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:52.016Z",
-        "firstPublishedAt": "2023-03-26T21:19:52.016Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "article"
-          }
-        }
-      },
-      "fields": {
-        "slug": {
-          "en-US": "is-the-slow-drip-coffee-maker-for-you"
-        },
-        "title": {
-          "en-US": "Is the slow drip coffee maker for you?"
-        },
-        "description": {
-          "en-US": "Is the slow drip actually making better coffee? Or is it just some hipster thing that doesn’t really matter?"
-        },
-        "thumbnail": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "7lMfD8fBdHxNKFjPO4aQSW"
-            }
-          }
-        },
-        "content": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Is the slow drip actually making better coffee? Or is it just some hipster thing that doesn’t really matter?",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "embedded-asset-block",
-                "data": {
-                  "target": {
-                    "sys": {
-                      "id": "7lMfD8fBdHxNKFjPO4aQSW",
-                      "type": "Link",
-                      "linkType": "Asset"
-                    }
-                  }
-                },
-                "content": [
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.\n",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "p9cRDL4wnVWieFwMYX4NL",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:47.683Z",
-        "updatedAt": "2023-03-26T21:19:52.490Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:52.490Z",
-        "firstPublishedAt": "2023-03-26T21:19:52.490Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "article"
-          }
-        }
-      },
-      "fields": {
-        "slug": {
-          "en-US": "how-to-find-the-perfect-cup-without-leaving-your-home"
-        },
-        "title": {
-          "en-US": "How to find the perfect cup without leaving your home"
-        },
-        "description": {
-          "en-US": "Arabica Acerbic Affogato Aftertaste Aged Americano And, Aroma mazagran that Black Blue turkish extra, filter cup plunger aged aroma. "
-        },
-        "thumbnail": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "17eATDg5fcEPk6fEECSFrG"
-            }
-          }
-        },
-        "content": {
-          "en-US": {
-            "nodeType": "document",
-            "data": {
-            },
-            "content": [
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Arabica Acerbic Affogato Aftertaste Aged Americano And, Aroma mazagran that Black Blue turkish extra, filter cup plunger aged aroma. And single spoon milk decaffeinated Aroma breve cup dark organic saucer, Bar Affogato Beans wings caramelization Arabica pumpkin that. Skinny flavour roast aftertaste affogato Affogato Aromatic cultivar mazagran wings mocha viennese, whipped spoon caramelization organic decaffeinated irish cream Bar beans dark est, grounds Aroma crema Con filter pumpkin iced Beans robust java. Medium instant sit filter Americano press Aroma iced barista cultivar, americano con caffeine irish Con that Barista. Bar strong aged espresso french kopi-luwak seasonal plunger at white Barista, macchiato mountain flavour spice barista caramelization mocha Americano to, cream milk mug dark spoon acerbic grinder irish affogato.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              },
-              {
-                "nodeType": "embedded-asset-block",
-                "data": {
-                  "target": {
-                    "sys": {
-                      "id": "17eATDg5fcEPk6fEECSFrG",
-                      "type": "Link",
-                      "linkType": "Asset"
-                    }
-                  }
-                },
-                "content": [
-                ]
-              },
-              {
-                "nodeType": "paragraph",
-                "data": {
-                },
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "Iced extra mocha panna Affogato Black aftertaste doppio white aromatic, rich Aroma strong foam barista Con in that milk, Body aroma plunger roast coffee Brewed lait turkish beans. Et Body grounds sugar viennese americano Blue cinnamon, aged Aromatic robusta froth arabica saucer bar, seasonal extraction Beans redeye iced Americano. Blue con  cream At Aftertaste mug Con aroma acerbic, As steamed Blue grounds doppio shop arabica grinder, filter foam ristretto aged siphon bar strong qui. Turkish siphon cup panna Arabica ut, con mazagran robusta Aged arabica, aroma qui And pump",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5x1SBffE9hTTr2WqgF06bF",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:47.688Z",
-        "updatedAt": "2023-03-26T21:19:51.457Z",
+        "createdAt": "2023-04-02T11:15:25.985Z",
+        "updatedAt": "2023-04-02T11:15:31.113Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1512,8 +1230,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:51.457Z",
-        "firstPublishedAt": "2023-03-26T21:19:51.457Z",
+        "publishedAt": "2023-04-02T11:15:31.113Z",
+        "firstPublishedAt": "2023-04-02T11:15:31.113Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1631,13 +1349,186 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "4m40Y7SWNhyqcioflXuLrW",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:26.006Z",
+        "updatedAt": "2023-04-03T11:19:23.264Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2023-04-03T11:19:23.264Z",
+        "firstPublishedAt": "2023-04-02T11:15:30.150Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "slug": {
+          "en-US": "is-the-slow-drip-coffee-maker-for-you"
+        },
+        "title": {
+          "en-US": "Is the slow drip coffee maker for you?"
+        },
+        "description": {
+          "en-US": "Is the slow drip actually making better coffee? Or is it just some hipster thing that doesn’t really matter?"
+        },
+        "thumbnail": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7lMfD8fBdHxNKFjPO4aQSW"
+            }
+          }
+        },
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Is the slow drip actually making better coffee? Or is it just some hipster thing that doesn’t really matter?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "7lMfD8fBdHxNKFjPO4aQSW",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ],
+                "nodeType": "embedded-asset-block"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas pretium aenean pharetra. Orci eu lobortis elementum nibh tellus molestie. Vulputate dignissim suspendisse in est. Vel pharetra vel turpis nunc. Malesuada nunc vel risus commodo. Nisi vitae suscipit tellus mauris. Posuere morbi leo urna molestie at elementum eu. Urna duis convallis convallis tellus. Urna molestie at elementum eu. Nunc sed blandit libero volutpat.\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "unfrmOptEnrichmentTag": {
+          "en-US": [
+            {
+              "cat": "subCategory",
+              "key": "liberica",
+              "str": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5HW58j5RSdhGKGjxZeCnUl",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:47.692Z",
-        "updatedAt": "2023-03-26T21:19:53.596Z",
+        "createdAt": "2023-04-02T11:15:26.014Z",
+        "updatedAt": "2023-04-02T11:15:31.590Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1646,8 +1537,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:53.596Z",
-        "firstPublishedAt": "2023-03-26T21:19:53.596Z",
+        "publishedAt": "2023-04-02T11:15:31.590Z",
+        "firstPublishedAt": "2023-04-02T11:15:31.590Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1765,13 +1656,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5l6sBa3LeMpmc7WirKVEWH",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:47.705Z",
-        "updatedAt": "2023-03-26T21:19:53.128Z",
+        "createdAt": "2023-04-02T11:15:26.014Z",
+        "updatedAt": "2023-04-02T11:15:32.037Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1780,8 +1671,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:53.128Z",
-        "firstPublishedAt": "2023-03-26T21:19:53.128Z",
+        "publishedAt": "2023-04-02T11:15:32.037Z",
+        "firstPublishedAt": "2023-04-02T11:15:32.037Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1914,13 +1805,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "5jLebPQsniyCJWMtLTZlxK",
+        "id": "p9cRDL4wnVWieFwMYX4NL",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:48.101Z",
-        "updatedAt": "2023-03-26T21:19:55.497Z",
+        "createdAt": "2023-04-02T11:15:26.023Z",
+        "updatedAt": "2023-04-02T11:15:30.669Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1929,8 +1820,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:55.497Z",
-        "firstPublishedAt": "2023-03-26T21:19:55.497Z",
+        "publishedAt": "2023-04-02T11:15:30.669Z",
+        "firstPublishedAt": "2023-04-02T11:15:30.669Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -1960,16 +1851,81 @@
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "callToAction"
+            "id": "article"
           }
         }
       },
       "fields": {
-        "title": {
-          "en-US": "The home of coffee obsessives"
+        "slug": {
+          "en-US": "how-to-find-the-perfect-cup-without-leaving-your-home"
         },
-        "text": {
-          "en-US": "Welcome to JavaDrip. We are a boutique coffee company obsessed with the perfect cup of coffee. We believe that the perfect cup starts with the perfect bean and that those beans require the perfect brewing method. This means that we offer both high quality beans and products to meet any occasion and mood. Have a look around and let us know if you have any questions."
+        "title": {
+          "en-US": "How to find the perfect cup without leaving your home"
+        },
+        "description": {
+          "en-US": "Arabica Acerbic Affogato Aftertaste Aged Americano And, Aroma mazagran that Black Blue turkish extra, filter cup plunger aged aroma. "
+        },
+        "thumbnail": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "17eATDg5fcEPk6fEECSFrG"
+            }
+          }
+        },
+        "content": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Arabica Acerbic Affogato Aftertaste Aged Americano And, Aroma mazagran that Black Blue turkish extra, filter cup plunger aged aroma. And single spoon milk decaffeinated Aroma breve cup dark organic saucer, Bar Affogato Beans wings caramelization Arabica pumpkin that. Skinny flavour roast aftertaste affogato Affogato Aromatic cultivar mazagran wings mocha viennese, whipped spoon caramelization organic decaffeinated irish cream Bar beans dark est, grounds Aroma crema Con filter pumpkin iced Beans robust java. Medium instant sit filter Americano press Aroma iced barista cultivar, americano con caffeine irish Con that Barista. Bar strong aged espresso french kopi-luwak seasonal plunger at white Barista, macchiato mountain flavour spice barista caramelization mocha Americano to, cream milk mug dark spoon acerbic grinder irish affogato.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "embedded-asset-block",
+                "data": {
+                  "target": {
+                    "sys": {
+                      "id": "17eATDg5fcEPk6fEECSFrG",
+                      "type": "Link",
+                      "linkType": "Asset"
+                    }
+                  }
+                },
+                "content": [
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Iced extra mocha panna Affogato Black aftertaste doppio white aromatic, rich Aroma strong foam barista Con in that milk, Body aroma plunger roast coffee Brewed lait turkish beans. Et Body grounds sugar viennese americano Blue cinnamon, aged Aromatic robusta froth arabica saucer bar, seasonal extraction Beans redeye iced Americano. Blue con  cream At Aftertaste mug Con aroma acerbic, As steamed Blue grounds doppio shop arabica grinder, filter foam ristretto aged siphon bar strong qui. Turkish siphon cup panna Arabica ut, con mazagran robusta Aged arabica, aroma qui And pump",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
         }
       }
     },
@@ -1983,88 +1939,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "79eHqAV8HL7JK22czTOsbQ",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:48.112Z",
-        "updatedAt": "2023-03-26T21:19:55.102Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:55.102Z",
-        "firstPublishedAt": "2023-03-26T21:19:55.102Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "hero"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Find the perfect cup without leaving your home."
-        },
-        "buttonCopy": {
-          "en-US": "Read Post"
-        },
-        "buttonLink": {
-          "en-US": "/"
-        },
-        "backgroundImage": {
-          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675157963/vNext%20Demos/Baseline/hero-3_h8gytd.webp"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "2gKZXdEBmyOc4bmVGt7ZlU",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:48.118Z",
-        "updatedAt": "2023-03-26T21:19:54.584Z",
+        "createdAt": "2023-04-02T11:15:26.551Z",
+        "updatedAt": "2023-04-02T11:15:33.501Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2073,8 +1954,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:54.584Z",
-        "firstPublishedAt": "2023-03-26T21:19:54.584Z",
+        "publishedAt": "2023-04-02T11:15:33.501Z",
+        "firstPublishedAt": "2023-04-02T11:15:33.501Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2225,13 +2106,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "2IMufn0JMgS9z2qLPmYlbq",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:48.120Z",
-        "updatedAt": "2023-03-26T21:19:54.052Z",
+        "createdAt": "2023-04-02T11:15:26.564Z",
+        "updatedAt": "2023-04-02T11:15:33.918Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2240,8 +2121,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:54.052Z",
-        "firstPublishedAt": "2023-03-26T21:19:54.052Z",
+        "publishedAt": "2023-04-02T11:15:33.918Z",
+        "firstPublishedAt": "2023-04-02T11:15:33.918Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2404,13 +2285,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "62idtt9VcaVLPwBps1Zqk8",
+        "id": "5jLebPQsniyCJWMtLTZlxK",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.112Z",
-        "updatedAt": "2023-03-29T15:50:47.495Z",
+        "createdAt": "2023-04-02T11:15:26.564Z",
+        "updatedAt": "2023-04-02T11:15:32.584Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2418,9 +2299,9 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 18,
-        "publishedAt": "2023-03-29T15:50:47.495Z",
-        "firstPublishedAt": "2023-03-26T21:19:55.869Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:32.584Z",
+        "firstPublishedAt": "2023-04-02T11:15:32.584Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2432,16 +2313,85 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 9,
-        "version": 19,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "callToAction"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The home of coffee obsessives"
+        },
+        "text": {
+          "en-US": "Welcome to JavaDrip. We are a boutique coffee company obsessed with the perfect cup of coffee. We believe that the perfect cup starts with the perfect bean and that those beans require the perfect brewing method. This means that we offer both high quality beans and products to meet any occasion and mood. Have a look around and let us know if you have any questions."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "62idtt9VcaVLPwBps1Zqk8",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:26.571Z",
+        "updatedAt": "2023-04-02T22:14:57.084Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-04-02T22:14:57.084Z",
+        "firstPublishedAt": "2023-04-02T11:15:34.500Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "automationTags": [
@@ -2456,7 +2406,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "Welcome to the JavaDrip Coffee Shop!"
+          "en-US": "Welcome to JavaDrip QMO!"
         },
         "buttonCopy": {
           "en-US": "See our landing page"
@@ -2479,13 +2429,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5y6SO6Wx7t6EY5RPvQX1kx",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.116Z",
-        "updatedAt": "2023-03-26T21:19:56.269Z",
+        "createdAt": "2023-04-02T11:15:26.573Z",
+        "updatedAt": "2023-04-02T11:15:35.011Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2494,8 +2444,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:56.269Z",
-        "firstPublishedAt": "2023-03-26T21:19:56.269Z",
+        "publishedAt": "2023-04-02T11:15:35.011Z",
+        "firstPublishedAt": "2023-04-02T11:15:35.011Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2646,13 +2596,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "5maUJAP0h4e3O33U1USUvS",
+        "id": "79eHqAV8HL7JK22czTOsbQ",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.126Z",
-        "updatedAt": "2023-03-26T21:19:57.146Z",
+        "createdAt": "2023-04-02T11:15:26.579Z",
+        "updatedAt": "2023-04-02T11:15:33.053Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2661,8 +2611,83 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:57.146Z",
-        "firstPublishedAt": "2023-03-26T21:19:57.146Z",
+        "publishedAt": "2023-04-02T11:15:33.053Z",
+        "firstPublishedAt": "2023-04-02T11:15:33.053Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Find the perfect cup without leaving your home."
+        },
+        "buttonCopy": {
+          "en-US": "Read Post"
+        },
+        "buttonLink": {
+          "en-US": "/"
+        },
+        "backgroundImage": {
+          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675157963/vNext%20Demos/Baseline/hero-3_h8gytd.webp"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "5maUJAP0h4e3O33U1USUvS",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:27.600Z",
+        "updatedAt": "2023-04-02T11:15:35.601Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:35.601Z",
+        "firstPublishedAt": "2023-04-02T11:15:35.601Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2721,13 +2746,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "6lQ4LeFNoeQKcZt4TyEJKb",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.126Z",
-        "updatedAt": "2023-03-26T21:19:58.113Z",
+        "createdAt": "2023-04-02T11:15:27.602Z",
+        "updatedAt": "2023-04-02T11:15:35.999Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2736,8 +2761,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:58.113Z",
-        "firstPublishedAt": "2023-03-26T21:19:58.113Z",
+        "publishedAt": "2023-04-02T11:15:35.999Z",
+        "firstPublishedAt": "2023-04-02T11:15:35.999Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2790,13 +2815,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "6TPlP9nDRWvFtGS4rU0MZt",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.133Z",
-        "updatedAt": "2023-03-26T21:19:58.533Z",
+        "createdAt": "2023-04-02T11:15:27.607Z",
+        "updatedAt": "2023-04-02T11:15:36.435Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2805,8 +2830,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:58.533Z",
-        "firstPublishedAt": "2023-03-26T21:19:58.533Z",
+        "publishedAt": "2023-04-02T11:15:36.435Z",
+        "firstPublishedAt": "2023-04-02T11:15:36.435Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2859,13 +2884,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "3Ef14UCreD8Uyk23FZkq4Y",
+        "id": "7O6rD0aZ5Urhw7ZabswYc",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.137Z",
-        "updatedAt": "2023-03-28T15:37:48.661Z",
+        "createdAt": "2023-04-02T11:15:27.619Z",
+        "updatedAt": "2023-04-02T11:15:38.206Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2873,9 +2898,9 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2023-03-28T15:37:48.661Z",
-        "firstPublishedAt": "2023-03-26T21:19:57.577Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:38.206Z",
+        "firstPublishedAt": "2023-04-02T11:15:38.206Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -2887,16 +2912,160 @@
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "accordionItem"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "What is JavaDrip doing to protect my privacy?"
+        },
+        "description": {
+          "en-US": "Barista et bar aftertaste, brewed variety filter turkish breve organic. Mug french press rich doppio barista redeye cream. Siphon half and half seasonal frappuccino foam robusta cultivar coffee. So froth, aftertaste bar, saucer sugar single shot caramelization aromatic. Espresso, saucer, breve café au lait, id cultivar pumpkin spice doppio viennese frappuccino doppio."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "6eVTFdis6ixVh7Kch4eFZH",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:27.625Z",
+        "updatedAt": "2023-04-02T11:15:37.352Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:37.352Z",
+        "firstPublishedAt": "2023-04-02T11:15:37.352Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Contact us for details"
+        },
+        "buttonCopy": {
+          "en-US": "Contact us"
+        },
+        "buttonLink": {
+          "en-US": "/contact-us"
+        },
+        "backgroundImage": {
+          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675157879/vNext%20Demos/Baseline/hero-2_gjqbfo.webp"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "3Ef14UCreD8Uyk23FZkq4Y",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:27.635Z",
+        "updatedAt": "2023-04-02T11:15:36.835Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:36.835Z",
+        "firstPublishedAt": "2023-04-02T11:15:36.835Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "automationTags": [
@@ -3026,157 +3195,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "6eVTFdis6ixVh7Kch4eFZH",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:49.138Z",
-        "updatedAt": "2023-03-26T21:19:56.768Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:56.768Z",
-        "firstPublishedAt": "2023-03-26T21:19:56.768Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "hero"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Contact us for details"
-        },
-        "buttonCopy": {
-          "en-US": "Contact us"
-        },
-        "buttonLink": {
-          "en-US": "/contact-us"
-        },
-        "backgroundImage": {
-          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675157879/vNext%20Demos/Baseline/hero-2_gjqbfo.webp"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "7O6rD0aZ5Urhw7ZabswYc",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.101Z",
-        "updatedAt": "2023-03-26T21:19:58.915Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:58.915Z",
-        "firstPublishedAt": "2023-03-26T21:19:58.915Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "accordionItem"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "What is JavaDrip doing to protect my privacy?"
-        },
-        "description": {
-          "en-US": "Barista et bar aftertaste, brewed variety filter turkish breve organic. Mug french press rich doppio barista redeye cream. Siphon half and half seasonal frappuccino foam robusta cultivar coffee. So froth, aftertaste bar, saucer sugar single shot caramelization aromatic. Espresso, saucer, breve café au lait, id cultivar pumpkin spice doppio viennese frappuccino doppio."
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5JvZF3XKF1TmOOQ3vgd1pr",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.111Z",
-        "updatedAt": "2023-03-26T21:19:59.746Z",
+        "createdAt": "2023-04-02T11:15:27.748Z",
+        "updatedAt": "2023-04-02T11:15:38.616Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3185,8 +3210,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:59.746Z",
-        "firstPublishedAt": "2023-03-26T21:19:59.746Z",
+        "publishedAt": "2023-04-02T11:15:38.616Z",
+        "firstPublishedAt": "2023-04-02T11:15:38.616Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3239,13 +3264,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "5hIG7ROGQswIiitDm6M8fZ",
+        "id": "1rajF4rDgvChBiR9XPd3vL",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.116Z",
-        "updatedAt": "2023-03-26T21:20:01.043Z",
+        "createdAt": "2023-04-02T11:15:28.556Z",
+        "updatedAt": "2023-04-02T11:15:40.396Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3254,8 +3279,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:01.043Z",
-        "firstPublishedAt": "2023-03-26T21:20:01.043Z",
+        "publishedAt": "2023-04-02T11:15:40.396Z",
+        "firstPublishedAt": "2023-04-02T11:15:40.396Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3285,19 +3310,16 @@
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "featuredCallout"
+            "id": "accordionItem"
           }
         }
       },
       "fields": {
         "title": {
-          "en-US": "Four user profiles for full taste customization"
+          "en-US": "How smart is the Cervello di Caffè?"
         },
         "description": {
-          "en-US": "You may love your family more than anything, but that doesn’t mean you love your coffee the same way. The Cervello di Caffè stores up to four taste profiles, which are applied automatically when you use your app or voice assistant to start the brewing process or can be set manually on the machine."
-        },
-        "image": {
-          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/c_limit,f_auto,q_auto,w_504/v1675156336/vNext%20Demos/Baseline/about-item-2_ptdocq.webp"
+          "en-US": "Java chicory, black doppio and roast cream mocha turkish strong. Blue mountain doppio black, chicory, sugar medium, single shot a wings blue mountain turkish. Viennese et, cinnamon, turkish lungo qui cappuccino kopi-luwak. Black, dripper, to go medium espresso lungo in, and plunger pot latte sweet redeye. Half and half, galão, single shot wings beans bar that con panna macchiato dark foam galão."
         }
       }
     },
@@ -3311,13 +3333,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "5BbH0QI5yAZIpdlVSU7GcD",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.119Z",
-        "updatedAt": "2023-03-26T21:20:01.484Z",
+        "createdAt": "2023-04-02T11:15:28.556Z",
+        "updatedAt": "2023-04-02T11:15:39.541Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3326,8 +3348,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:01.484Z",
-        "firstPublishedAt": "2023-03-26T21:20:01.484Z",
+        "publishedAt": "2023-04-02T11:15:39.541Z",
+        "firstPublishedAt": "2023-04-02T11:15:39.541Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3383,151 +3405,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "B9lb0U5XuQDa2SFl0wKB3",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.123Z",
-        "updatedAt": "2023-03-26T21:20:00.592Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:00.592Z",
-        "firstPublishedAt": "2023-03-26T21:20:00.592Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "accordion"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Frequently Asked Questions"
-        },
-        "description": {
-          "en-US": "If you can't find the answer to your question please reach out to support@javadrip.coffee."
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "1rajF4rDgvChBiR9XPd3vL",
-        "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.268Z",
-        "updatedAt": "2023-03-26T21:19:59.329Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:19:59.329Z",
-        "firstPublishedAt": "2023-03-26T21:19:59.329Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "accordionItem"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "How smart is the Cervello di Caffè?"
-        },
-        "description": {
-          "en-US": "Java chicory, black doppio and roast cream mocha turkish strong. Blue mountain doppio black, chicory, sugar medium, single shot a wings blue mountain turkish. Viennese et, cinnamon, turkish lungo qui cappuccino kopi-luwak. Black, dripper, to go medium espresso lungo in, and plunger pot latte sweet redeye. Half and half, galão, single shot wings beans bar that con panna macchiato dark foam galão."
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "49CR03uVeyBkchYqWFeFS",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:50.287Z",
-        "updatedAt": "2023-03-26T21:20:00.135Z",
+        "createdAt": "2023-04-02T11:15:28.565Z",
+        "updatedAt": "2023-04-02T11:15:40.754Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3536,8 +3420,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:00.135Z",
-        "firstPublishedAt": "2023-03-26T21:20:00.135Z",
+        "publishedAt": "2023-04-02T11:15:40.754Z",
+        "firstPublishedAt": "2023-04-02T11:15:40.754Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3599,13 +3483,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "1KlRV1UGZWwpMA5J5KtHOY",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:51.082Z",
-        "updatedAt": "2023-03-26T21:20:02.318Z",
+        "createdAt": "2023-04-02T11:15:28.570Z",
+        "updatedAt": "2023-04-02T11:15:41.238Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3614,8 +3498,8 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:02.318Z",
-        "firstPublishedAt": "2023-03-26T21:20:02.318Z",
+        "publishedAt": "2023-04-02T11:15:41.238Z",
+        "firstPublishedAt": "2023-04-02T11:15:41.238Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3668,13 +3552,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "3o0BreZJBs7k8Vf4kOMHqT",
+        "id": "5hIG7ROGQswIiitDm6M8fZ",
         "type": "Entry",
-        "createdAt": "2023-03-26T21:19:51.098Z",
-        "updatedAt": "2023-03-26T21:20:01.898Z",
+        "createdAt": "2023-04-02T11:15:28.577Z",
+        "updatedAt": "2023-04-02T11:15:39.017Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3683,8 +3567,80 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2023-03-26T21:20:01.898Z",
-        "firstPublishedAt": "2023-03-26T21:20:01.898Z",
+        "publishedAt": "2023-04-02T11:15:39.017Z",
+        "firstPublishedAt": "2023-04-02T11:15:39.017Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "featuredCallout"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Four user profiles for full taste customization"
+        },
+        "description": {
+          "en-US": "You may love your family more than anything, but that doesn’t mean you love your coffee the same way. The Cervello di Caffè stores up to four taste profiles, which are applied automatically when you use your app or voice assistant to start the brewing process or can be set manually on the machine."
+        },
+        "image": {
+          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/c_limit,f_auto,q_auto,w_504/v1675156336/vNext%20Demos/Baseline/about-item-2_ptdocq.webp"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "3o0BreZJBs7k8Vf4kOMHqT",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:28.615Z",
+        "updatedAt": "2023-04-02T11:15:41.674Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:41.674Z",
+        "firstPublishedAt": "2023-04-02T11:15:41.674Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3746,13 +3702,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "1q3unJ3N2dnZ1lRYBLPTvg",
+        "id": "B9lb0U5XuQDa2SFl0wKB3",
         "type": "Entry",
-        "createdAt": "2023-03-27T11:07:43.953Z",
-        "updatedAt": "2023-03-27T11:14:12.615Z",
+        "createdAt": "2023-04-02T11:15:28.631Z",
+        "updatedAt": "2023-04-02T11:15:39.954Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3760,9 +3716,9 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2023-03-27T11:14:12.615Z",
-        "firstPublishedAt": "2023-03-27T11:11:51.264Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:39.954Z",
+        "firstPublishedAt": "2023-04-02T11:15:39.954Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -3777,8 +3733,77 @@
             "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "accordion"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Frequently Asked Questions"
+        },
+        "description": {
+          "en-US": "If you can't find the answer to your question please reach out to support@javadrip.coffee."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "1q3unJ3N2dnZ1lRYBLPTvg",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:29.566Z",
+        "updatedAt": "2023-04-02T11:15:42.177Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:42.177Z",
+        "firstPublishedAt": "2023-04-02T11:15:42.177Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3815,154 +3840,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "5zLv6R94AL0uO1XzBMS7Uz",
-        "type": "Entry",
-        "createdAt": "2023-03-28T18:49:03.506Z",
-        "updatedAt": "2023-03-28T18:49:42.705Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 4,
-        "publishedAt": "2023-03-28T18:49:42.705Z",
-        "firstPublishedAt": "2023-03-28T18:49:42.705Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 5,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "hero"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Coffee Makers"
-        },
-        "subtitle": {
-          "en-US": "The best coffee you can buy!"
-        },
-        "backgroundImage": {
-          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675158034/vNext%20Demos/Baseline/hero-4_qh2jg7.webp"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "3qE5u8jUwYjfneh1Vmuqxj",
-        "type": "Entry",
-        "createdAt": "2023-03-28T18:51:11.672Z",
-        "updatedAt": "2023-03-28T18:51:32.115Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 4,
-        "publishedAt": "2023-03-28T18:51:32.115Z",
-        "firstPublishedAt": "2023-03-28T18:51:32.115Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 5,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
-          }
-        },
-        "automationTags": [
-        ],
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "hero"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Beans for all your brewing needs!"
-        },
-        "backgroundImage": {
-          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675158034/vNext%20Demos/Baseline/hero-4_qh2jg7.webp"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "35BGwIwF6AGbIsaLZP3VGZ",
         "type": "Entry",
-        "createdAt": "2023-03-29T01:29:08.015Z",
-        "updatedAt": "2023-03-29T15:35:20.803Z",
+        "createdAt": "2023-04-02T11:15:29.568Z",
+        "updatedAt": "2023-04-02T11:15:43.608Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3970,30 +3854,30 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 18,
-        "publishedAt": "2023-03-29T15:35:20.803Z",
-        "firstPublishedAt": "2023-03-29T01:29:56.837Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:43.608Z",
+        "firstPublishedAt": "2023-04-02T11:15:43.608Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 5,
-        "version": 19,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "automationTags": [
@@ -4028,13 +3912,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "6UerXjpKE4eSqHXfq0H3jU",
+        "id": "5zLv6R94AL0uO1XzBMS7Uz",
         "type": "Entry",
-        "createdAt": "2023-03-29T15:37:41.036Z",
-        "updatedAt": "2023-03-29T15:43:12.393Z",
+        "createdAt": "2023-04-02T11:15:29.573Z",
+        "updatedAt": "2023-04-02T11:15:42.661Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4042,30 +3926,30 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2023-03-29T15:43:12.393Z",
-        "firstPublishedAt": "2023-03-29T15:39:56.684Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:42.661Z",
+        "firstPublishedAt": "2023-04-02T11:15:42.661Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 4,
-        "version": 14,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "automationTags": [
@@ -4074,16 +3958,19 @@
           "sys": {
             "type": "Link",
             "linkType": "ContentType",
-            "id": "callToAction"
+            "id": "hero"
           }
         }
       },
       "fields": {
         "title": {
-          "en-US": "Coffee on the seas"
+          "en-US": "Coffee Makers"
         },
-        "text": {
-          "en-US": "As you take in the breathtaking view of the open sea, you sip on a perfectly crafted cappuccino, made from the finest beans sourced from around the world. The barista tells you about the different blends and roasts available, and offers you a taste of their specialty brew, a rich and smooth blend that's been aged in oak barrels."
+        "subtitle": {
+          "en-US": "The best coffee you can buy!"
+        },
+        "backgroundImage": {
+          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675158034/vNext%20Demos/Baseline/hero-4_qh2jg7.webp"
         }
       }
     },
@@ -4097,13 +3984,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "2GFjMlMBO2BO2grTJgBcBo",
         "type": "Entry",
-        "createdAt": "2023-03-29T15:44:27.334Z",
-        "updatedAt": "2023-03-29T15:47:33.372Z",
+        "createdAt": "2023-04-02T11:15:29.583Z",
+        "updatedAt": "2023-04-02T11:15:44.369Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4111,30 +3998,30 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2023-03-29T15:47:33.372Z",
-        "firstPublishedAt": "2023-03-29T15:46:26.431Z",
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:44.369Z",
+        "firstPublishedAt": "2023-04-02T11:15:44.369Z",
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 1,
+        "version": 2,
         "publishedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "3ZZAsxP6BG2C8vbyz0ssK1"
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
         "automationTags": [
@@ -4158,6 +4045,144 @@
           "en-US": "https://www.fourseasons.com/magazine/wp-content/uploads/2016/01/four-seasons-beijing-kopi-luwak-martini-992x672.jpg"
         }
       }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "3qE5u8jUwYjfneh1Vmuqxj",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:29.589Z",
+        "updatedAt": "2023-04-02T11:55:28.462Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-04-02T11:55:28.462Z",
+        "firstPublishedAt": "2023-04-02T11:15:43.091Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "hero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Beans for all your brewing needs!"
+        },
+        "backgroundImage": {
+          "en-US": "https://res.cloudinary.com/uniformdev/image/upload/v1675862473/vNext%20Demos/Fake%20Commerce/hero-beans_q7qtiv.webp"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "6UerXjpKE4eSqHXfq0H3jU",
+        "type": "Entry",
+        "createdAt": "2023-04-02T11:15:29.594Z",
+        "updatedAt": "2023-04-02T11:15:44.004Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2023-04-02T11:15:44.004Z",
+        "firstPublishedAt": "2023-04-02T11:15:44.004Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "callToAction"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Coffee on the seas"
+        },
+        "text": {
+          "en-US": "As you take in the breathtaking view of the open sea, you sip on a perfectly crafted cappuccino, made from the finest beans sourced from around the world. The barista tells you about the different blends and roasts available, and offers you a taste of their specialty brew, a rich and smooth blend that's been aged in oak barrels."
+        }
+      }
     }
   ],
   "assets": [
@@ -4171,161 +4196,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "17eATDg5fcEPk6fEECSFrG",
-        "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.564Z",
-        "updatedAt": "2023-03-26T21:19:44.436Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:44.436Z",
-        "firstPublishedAt": "2023-03-26T21:19:44.436Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Perfect Cup Thumbnail"
-        },
-        "description": {
-          "en-US": ""
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/17eATDg5fcEPk6fEECSFrG/8106536ebaa5d918ddf990337563abf0/perfectcup_article_thumb.jpg",
-            "details": {
-              "size": 41631,
-              "image": {
-                "width": 686,
-                "height": 338
-              }
-            },
-            "fileName": "perfectcup_article_thumb.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "3v7mxnCikGsK0ODJnpSzpM",
-        "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.570Z",
-        "updatedAt": "2023-03-26T21:19:45.754Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:45.754Z",
-        "firstPublishedAt": "2023-03-26T21:19:45.754Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Accessories"
-        },
-        "description": {
-          "en-US": ""
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/3v7mxnCikGsK0ODJnpSzpM/1f3ae890801572c7616957e6037a0743/caffeeaccessories_article.jpg",
-            "details": {
-              "size": 379359,
-              "image": {
-                "width": 1704,
-                "height": 1074
-              }
-            },
-            "fileName": "caffeeaccessories_article.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "672UDG3HsRwDy3XXssqcUI",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.571Z",
-        "updatedAt": "2023-03-26T21:19:44.052Z",
+        "createdAt": "2023-04-02T11:14:38.860Z",
+        "updatedAt": "2023-04-02T11:15:23.216Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4334,8 +4211,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:44.052Z",
-        "firstPublishedAt": "2023-03-26T21:19:44.052Z",
+        "publishedAt": "2023-04-02T11:15:23.216Z",
+        "firstPublishedAt": "2023-04-02T11:15:23.216Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4369,7 +4246,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/672UDG3HsRwDy3XXssqcUI/3cef78447107747f9462ab1f7dc5a88c/first_day_articles_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/672UDG3HsRwDy3XXssqcUI/860aa5426490713e29ded79adbf9e977/first_day_articles_thumb.jpg",
             "details": {
               "size": 161789,
               "image": {
@@ -4393,87 +4270,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "1BqjTT7VUdIg4lHOqjOaw4",
-        "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.576Z",
-        "updatedAt": "2023-03-26T21:19:45.061Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:45.061Z",
-        "firstPublishedAt": "2023-03-26T21:19:45.061Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Grinding Thumbnail"
-        },
-        "description": {
-          "en-US": ""
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/1BqjTT7VUdIg4lHOqjOaw4/8b8e1a13fd73fa37aef2a8a79494dbe5/grinding_article_thumb.jpg",
-            "details": {
-              "size": 205856,
-              "image": {
-                "width": 686,
-                "height": 338
-              }
-            },
-            "fileName": "grinding_article_thumb.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "6JeZz17jVwL0R5AsAEhGsm",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.576Z",
-        "updatedAt": "2023-03-26T21:19:45.398Z",
+        "createdAt": "2023-04-02T11:14:38.871Z",
+        "updatedAt": "2023-04-02T11:15:23.824Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4482,8 +4285,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:45.398Z",
-        "firstPublishedAt": "2023-03-26T21:19:45.398Z",
+        "publishedAt": "2023-04-02T11:15:23.824Z",
+        "firstPublishedAt": "2023-04-02T11:15:23.824Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4517,7 +4320,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/6JeZz17jVwL0R5AsAEhGsm/a9a35c6b13be73d451769544438aeb5e/cuppa_article_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/6JeZz17jVwL0R5AsAEhGsm/5fbc1876658c98f556c0a1118cb6d652/cuppa_article_thumb.jpg",
             "details": {
               "size": 216920,
               "image": {
@@ -4541,13 +4344,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "73713ftmlPdqamsa2PORzK",
+        "id": "17eATDg5fcEPk6fEECSFrG",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:00.578Z",
-        "updatedAt": "2023-03-26T21:19:44.752Z",
+        "createdAt": "2023-04-02T11:14:38.874Z",
+        "updatedAt": "2023-04-02T11:15:22.525Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4556,8 +4359,82 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:44.752Z",
-        "firstPublishedAt": "2023-03-26T21:19:44.752Z",
+        "publishedAt": "2023-04-02T11:15:22.525Z",
+        "firstPublishedAt": "2023-04-02T11:15:22.525Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Perfect Cup Thumbnail"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/17eATDg5fcEPk6fEECSFrG/6c98838087df240ef74ca2d0dc583406/perfectcup_article_thumb.jpg",
+            "details": {
+              "size": 41631,
+              "image": {
+                "width": 686,
+                "height": 338
+              }
+            },
+            "fileName": "perfectcup_article_thumb.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "73713ftmlPdqamsa2PORzK",
+        "type": "Asset",
+        "createdAt": "2023-04-02T11:14:38.889Z",
+        "updatedAt": "2023-04-02T11:15:24.142Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-04-02T11:15:24.142Z",
+        "firstPublishedAt": "2023-04-02T11:15:24.142Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4591,7 +4468,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/73713ftmlPdqamsa2PORzK/71ff0746b4eabc0b9bdefe775b181fde/beans_article_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/73713ftmlPdqamsa2PORzK/12a3fa597bcb6d779428e2c2f0bc0177/beans_article_thumb.jpg",
             "details": {
               "size": 327553,
               "image": {
@@ -4615,13 +4492,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "PGsh7il3fQHCJLyfv7Q8h",
+        "id": "1BqjTT7VUdIg4lHOqjOaw4",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:01.300Z",
-        "updatedAt": "2023-03-26T21:19:46.361Z",
+        "createdAt": "2023-04-02T11:14:38.904Z",
+        "updatedAt": "2023-04-02T11:15:23.536Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4630,8 +4507,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:46.361Z",
-        "firstPublishedAt": "2023-03-26T21:19:46.361Z",
+        "publishedAt": "2023-04-02T11:15:23.536Z",
+        "firstPublishedAt": "2023-04-02T11:15:23.536Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4658,22 +4535,22 @@
       },
       "fields": {
         "title": {
-          "en-US": "Experts Thumbnail"
+          "en-US": "Grinding Thumbnail"
         },
         "description": {
           "en-US": ""
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/PGsh7il3fQHCJLyfv7Q8h/7c2ef22e0a7ec2ccee32c857804b0f49/experts_articles_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/1BqjTT7VUdIg4lHOqjOaw4/f433bafb9f8e13f35b118093f48aa682/grinding_article_thumb.jpg",
             "details": {
-              "size": 443991,
+              "size": 205856,
               "image": {
                 "width": 686,
                 "height": 338
               }
             },
-            "fileName": "experts_articles_thumb.jpg",
+            "fileName": "grinding_article_thumb.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -4689,13 +4566,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
-        "id": "7lMfD8fBdHxNKFjPO4aQSW",
+        "id": "3v7mxnCikGsK0ODJnpSzpM",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:01.305Z",
-        "updatedAt": "2023-03-26T21:19:46.984Z",
+        "createdAt": "2023-04-02T11:14:38.959Z",
+        "updatedAt": "2023-04-02T11:15:22.892Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4704,8 +4581,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:46.984Z",
-        "firstPublishedAt": "2023-03-26T21:19:46.984Z",
+        "publishedAt": "2023-04-02T11:15:22.892Z",
+        "firstPublishedAt": "2023-04-02T11:15:22.892Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4732,22 +4609,22 @@
       },
       "fields": {
         "title": {
-          "en-US": "Slow Drip Thumbnail"
+          "en-US": "Accessories"
         },
         "description": {
           "en-US": ""
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/7lMfD8fBdHxNKFjPO4aQSW/4ac7fad90958c97111710cbde77d3ebb/pourover_article_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/3v7mxnCikGsK0ODJnpSzpM/0cabdc63961c16a6ef435680a882ebcb/caffeeaccessories_article.jpg",
             "details": {
-              "size": 67564,
+              "size": 379359,
               "image": {
-                "width": 686,
-                "height": 338
+                "width": 1704,
+                "height": 1074
               }
             },
-            "fileName": "pourover_article_thumb.jpg",
+            "fileName": "caffeeaccessories_article.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -4763,13 +4640,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "1YyVIDRYgc9q9nmzvmt9a8",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:01.313Z",
-        "updatedAt": "2023-03-26T21:19:47.299Z",
+        "createdAt": "2023-04-02T11:14:39.681Z",
+        "updatedAt": "2023-04-02T11:15:25.003Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4778,8 +4655,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:47.299Z",
-        "firstPublishedAt": "2023-03-26T21:19:47.299Z",
+        "publishedAt": "2023-04-02T11:15:25.003Z",
+        "firstPublishedAt": "2023-04-02T11:15:25.003Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4813,7 +4690,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/1YyVIDRYgc9q9nmzvmt9a8/d720902ed0bd5689a1bbffe567dfcfa4/Roma_article_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/1YyVIDRYgc9q9nmzvmt9a8/305007a2fea82e79be0a9e1ccc5e85c7/Roma_article_thumb.jpg",
             "details": {
               "size": 135191,
               "image": {
@@ -4837,87 +4714,13 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
-          }
-        },
-        "id": "2rUiIQNX4dxCS8qclCMjcF",
-        "type": "Asset",
-        "createdAt": "2023-03-26T21:19:01.331Z",
-        "updatedAt": "2023-03-26T21:19:46.657Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:46.657Z",
-        "firstPublishedAt": "2023-03-26T21:19:46.657Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Meet the experts"
-        },
-        "description": {
-          "en-US": ""
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/2rUiIQNX4dxCS8qclCMjcF/4c936c5bbe6fe293daef7c87248e2142/Rectangle_724__1_.jpg",
-            "details": {
-              "size": 1840311,
-              "image": {
-                "width": 1686,
-                "height": 1074
-              }
-            },
-            "fileName": "Rectangle_724__1_.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "id": "9ycAAKTDlqMpsXpgBv0r0",
         "type": "Asset",
-        "createdAt": "2023-03-26T21:19:01.403Z",
-        "updatedAt": "2023-03-26T21:19:46.068Z",
+        "createdAt": "2023-04-02T11:14:39.686Z",
+        "updatedAt": "2023-04-02T11:15:25.635Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4926,8 +4729,8 @@
           }
         },
         "publishedVersion": 2,
-        "publishedAt": "2023-03-26T21:19:46.068Z",
-        "firstPublishedAt": "2023-03-26T21:19:46.068Z",
+        "publishedAt": "2023-04-02T11:15:25.635Z",
+        "firstPublishedAt": "2023-04-02T11:15:25.635Z",
         "createdBy": {
           "sys": {
             "type": "Link",
@@ -4961,7 +4764,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/pdop8ohi5lsy/9ycAAKTDlqMpsXpgBv0r0/9aaeb592fcfa9c2cb086b72fd6527531/accessories_articles_thumb.jpg",
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/9ycAAKTDlqMpsXpgBv0r0/373dd5353ffbc31bb92c4b5eedab7d06/accessories_articles_thumb.jpg",
             "details": {
               "size": 24610,
               "image": {
@@ -4970,6 +4773,228 @@
               }
             },
             "fileName": "accessories_articles_thumb.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "PGsh7il3fQHCJLyfv7Q8h",
+        "type": "Asset",
+        "createdAt": "2023-04-02T11:14:39.760Z",
+        "updatedAt": "2023-04-02T11:15:24.410Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-04-02T11:15:24.410Z",
+        "firstPublishedAt": "2023-04-02T11:15:24.410Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Experts Thumbnail"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/PGsh7il3fQHCJLyfv7Q8h/b357c5ceb36ab1277d3f364499154200/experts_articles_thumb.jpg",
+            "details": {
+              "size": 443991,
+              "image": {
+                "width": 686,
+                "height": 338
+              }
+            },
+            "fileName": "experts_articles_thumb.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "2rUiIQNX4dxCS8qclCMjcF",
+        "type": "Asset",
+        "createdAt": "2023-04-02T11:14:39.776Z",
+        "updatedAt": "2023-04-02T11:15:25.289Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-04-02T11:15:25.289Z",
+        "firstPublishedAt": "2023-04-02T11:15:25.289Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Meet the experts"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/2rUiIQNX4dxCS8qclCMjcF/1b85399f82ebd8a8cadcd0252aaadeef/Rectangle_724__1_.jpg",
+            "details": {
+              "size": 1840311,
+              "image": {
+                "width": 1686,
+                "height": 1074
+              }
+            },
+            "fileName": "Rectangle_724__1_.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "9a6i4jpunqu2"
+          }
+        },
+        "id": "7lMfD8fBdHxNKFjPO4aQSW",
+        "type": "Asset",
+        "createdAt": "2023-04-02T11:14:39.782Z",
+        "updatedAt": "2023-04-02T11:15:24.697Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2023-04-02T11:15:24.697Z",
+        "firstPublishedAt": "2023-04-02T11:15:24.697Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7Gjs7urqMUu3ZfyCYuP8t0"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Slow Drip Thumbnail"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/9a6i4jpunqu2/7lMfD8fBdHxNKFjPO4aQSW/3239afe01d6c692381233c619f855841/pourover_article_thumb.jpg",
+            "details": {
+              "size": 67564,
+              "image": {
+                "width": 686,
+                "height": 338
+              }
+            },
+            "fileName": "pourover_article_thumb.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -4987,13 +5012,13 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "78TPlTQ9nXmk8oKL7C0Le5",
+        "id": "11wUfcg3J5L1nauFi5ptKQ",
         "version": 2,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "environment": {
@@ -5001,17 +5026,17 @@
             "type": "Link",
             "linkType": "Environment",
             "id": "master",
-            "uuid": "a6182a75-4ac8-4068-8f38-8b4877fd69ff"
+            "uuid": "55cc6d31-8979-490e-94b4-0dbb86275c0f"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "createdAt": "2023-03-26T19:25:40Z",
+        "createdAt": "2023-04-02T11:04:58Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
@@ -5019,7 +5044,7 @@
             "id": "7Gjs7urqMUu3ZfyCYuP8t0"
           }
         },
-        "updatedAt": "2023-03-26T21:18:54Z"
+        "updatedAt": "2023-04-02T11:14:32Z"
       }
     }
   ],
@@ -5156,31 +5181,31 @@
       },
       "sys": {
         "type": "Role",
-        "id": "79gGV9IFHmegBske0w9AHP",
+        "id": "11UDc9SkFZF0D99hMCHvFy",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "createdAt": "2023-03-26T19:25:40Z",
+        "createdAt": "2023-04-02T11:04:59Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "updatedAt": "2023-03-26T19:25:40Z"
+        "updatedAt": "2023-04-02T11:04:59Z"
       }
     },
     {
@@ -5237,31 +5262,31 @@
       },
       "sys": {
         "type": "Role",
-        "id": "79hqg4hcQBmtgUkisfFD0x",
+        "id": "11WuYPQqVMTWG2Yx8jLlcw",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "createdAt": "2023-03-26T19:25:40Z",
+        "createdAt": "2023-04-02T11:04:59Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "updatedAt": "2023-03-26T19:25:40Z"
+        "updatedAt": "2023-04-02T11:04:59Z"
       }
     },
     {
@@ -5372,31 +5397,31 @@
       },
       "sys": {
         "type": "Role",
-        "id": "79hXxqWRIujEh2Q2xd38tD",
+        "id": "11XRf5dSRBaG9ohy4PgaNu",
         "version": 0,
         "space": {
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "pdop8ohi5lsy"
+            "id": "9a6i4jpunqu2"
           }
         },
         "createdBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "createdAt": "2023-03-26T19:25:40Z",
+        "createdAt": "2023-04-02T11:04:59Z",
         "updatedBy": {
           "sys": {
             "type": "Link",
             "linkType": "User",
-            "id": "75gSMre6MtPAepQgT4LZDr"
+            "id": "0X8NaT2lspuf0gCHcnQSEJ"
           }
         },
-        "updatedAt": "2023-03-26T19:25:40Z"
+        "updatedAt": "2023-04-02T11:04:59Z"
       }
     }
   ]
